@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Profile Page</title>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined">
+	<script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+	<style type="text/css">
+	* {
+  box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+	body{
+		background-color: rgb(248, 248, 255);
+		margin: 0;
+		font-family: "Trirong", serif;;
+	}
+		.container{
+			display: flex;
+			
+			margin: 5px;
+		}
+		.leftColumn
+		{
+			position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  flex: 2 1 15%;
+  text-align: center;
+			
+		}
+		.feed-header{
+			text-align: left;
+			 border: 1px ridge #D3D3D3;
+			 padding: 20px;
+			 margin-bottom: 5px;
+			 font-weight: bold;
+			 font-size: 20px;
+			 font-family: sans-serif;
+		}
+		.profile-image
+		{
+			border-radius: 50%;
+			width: 60px;
+			height: 60px;
+		}
+		.post-image{
+			width: 100%;
+			height: auto;
+		}
+		#logo{
+			margin: 10px;
+			text-align: center;
+			font-size: 30px;
+			font-weight: bold;
+			font-family: 'Montserrat', sans-serif;
+		}
+		.rightColumn{
+			position: relative;
+			 flex: 2 2 20%;
+
+		
+		}
+		#post{
+			width: 100px;
+		}
+		.connect{
+			background-color: #FFDEAD;
+				 border-radius: 25px;
+				 padding: 5px;
+				 margin: 20px 10px 20px 10px;
+		}
+		.topics{
+				 background-color: #66CDAA;
+				 border-radius: 25px;
+				 padding: 5px;
+				 margin: 10px;
+		}
+		
+		
+		.feedColumn{
+			margin-right: 10px;
+			 flex: 2 0 50%;
+			 padding: 5px;
+			 border: 1px ridge #D3D3D3;
+		}
+		#search-input{
+			border-radius: -25%;
+			 background-color: silver;
+			 height: 35px;
+		}
+		.follow{
+			float: right;
+			border-radius: 39%;
+			
+		}
+		.messeges{
+			text-align: center;
+			background-color: #C0C0C0;
+				 border-radius: 25px;
+				 padding: 5px;
+				 margin: 10px;
+		}
+
+	</style>
+</head>
+
+<body>
+<div class="container">
+	<div class="leftColumn">
+		<header id="logo">NEXUS</header>
+    	<i style="font-size: 60px" class="material-icons-outlined ">person</i>
+    	<br>
+    	<i style="font-size: 60px" class="material-icons-outlined">explore</i>
+    	<br>
+    	<i style="font-size: 60px" class="material-icons-outlined">settings</i>
+    	<br>
+    	<i style="font-size: 60px" class="material-icons-outlined">chat</i>
+    	<br>
+    	<i style="font-size: 60px" class="material-icons-outlined">trending_up</i>
+    	<br>
+    	<button id="post">Post</button>
+	</div>
+
+	<div class="feedColumn">
+		<header class="feed-header">Home</header>
+		<div class="feed">
+			
+			<div class="feed-image">
+				<img class="profile-image" src="BillGates.jpg"  alt="BillGates"><span>Bill Gates</span>
+			</div>
+			<div class="feed-content">
+				
+				<p>To get to net-zero emissions globally by 2050, leaders from around the world must work together. It’s encouraging to see governments, business leaders, and financial institutions committing to a successful COP26 in Glasgow later this year.</p>
+				<a href="https://bit.ly/3z649bh" target="_blank"><img class="post-image" src="BillGatesPost.jpg" ></a>
+			</div>
+		</div>
+		<br>
+         <div class="feed">
+			
+			<div class="feed-image">
+				<img class="profile-image" src="abd.jpg"  alt="AB de Villiers"><span>AB de Villiers
+</span>
+			</div>
+			<div class="feed-content">
+				
+				<p>TI finally joined the Cameo team! 
+
+Go to <a href="http://cameo.com/abdevilliers17" target="_blank"> http://cameo.com/abdevilliers17</a>for personalised video requests from me. The link is in my Bio too.
+
+All of my proceeds will end up in the hands of people in need. Excited to connect with you<span>&#128077;</span></p>
+				<a href="http://cameo.com/abdevilliers17" target="_blank"><img src="Abd post.jpg" class="post-image"></a>
+			</div>
+		</div>
+		<br>
+		<div class="feed">
+			
+			<div class="feed-image">
+				<img class="profile-image" src="SachinTendulkar.jpg"  alt="SachinTendulkar"><span>SachinTendulkar</span>
+			</div>
+			<div class="feed-content">
+				
+				<p>Congratulations to our Flag of India women's & men's teams on putting up a stellar performance at the ongoing #ISSFWorldCup!
+
+India is currently leading the medal tally with 6 gold (First place medal), 3 silver (Second place medal) and 4 bronze (Third place medal) medals. </p>
+				<a href="https://bit.ly/3z2MhhJ" target="_blank"><img src="SachinPost.jpg" class="post-image"></a>
+			</div>
+		</div>
+		<br>
+		<div class="feed">
+		
+			<div class="feed-image">
+				<img class="profile-image" src="Satya Nadella
+.jpg" alt="Satya Nadella"><span>Satya Nadella
+</span>
+			</div>
+			<div class="feed-content">
+				
+				<p>We are building the platform for platform creators. At #MSBuild, we are introducing more than 100 new updates and services across the tech stack to make creating easier for every developer.</p>
+				<a href="https://bit.ly/2TNQFRH" target="_blank"><img src="Satya Nadella Post.png" class="post-image"></a>
+			</div>
+		</div>
+	</div>
+
+	<div class="rightColumn">
+		<div class="search-container">
+			<form>
+				<input type="search" name="Search" id="search-input" placeholder="Serach Nexus">
+				<button type="submit" id="searchButton"><span class="material-icons-outlined" >search</span></button>
+				
+			</form>
+		</div>
+
+		<div class="topics">
+			<h1 style="text-align: center;">Topics</h1>
+			<h3>World News<button type="submit" class="follow">Follow</button></h3>
+			<h3>Apple<button type="submit" class="follow">Follow</button></h3>
+			<h3>Biology<button type="submit" class="follow">Follow</button></h3>
+			<h3>Space<button type="submit" class="follow">Follow</button></h3>
+
+		</div>
+		<div class="connect">
+			<h1 style="text-align: center;">Connect</h1>
+			<h3>NDTV<button type="submit" class="follow">Follow</button></h3>
+			<h3>NASA<button type="submit" class="follow">Follow</button></h3>
+			<h3>Hindustan Times<button type="submit" class="follow">Follow</button></h3>
+			<h3>BCCI<button type="submit" class="follow">Follow</button></h3>
+		</div>
+		<div class="messeges">Messeges</div>
+		<footer>Terms of ServicePrivacy PolicyCookie PolicyAds infoMore© 2021 Nexus, Inc.</footer>
+	</div>
+
+</div>
+</body>
+</html>
