@@ -1,3 +1,33 @@
+
+@font-face {
+        font-family: "mons-bold";
+        src: url(./Montserrat-Bold.ttf);
+}
+
+@font-face {
+        font-family: "mons-reg";
+        src: url(./Montserrat-Regular.ttf);
+}
+
+
+@font-face {
+        font-family: "ps-med";
+        src: url(./public-sans.medium.ttf);
+}
+
+@font-face {
+        font-family: "ps-bold";
+        src: url(./public-sans.bold.ttf);
+}
+
+@font-face {
+        font-family: "ps-it";
+        src: url(./public-sans.medium-italic.ttf);
+}
+
+
+
+
 * {
   box-sizing: border-box;
 }
