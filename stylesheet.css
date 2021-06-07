@@ -143,7 +143,7 @@ body{
   bottom:3vh;
   left:6vw;
   color: white;
-  font-family: ps-bold;
+  font-family: mons-bold;
 }
 
 .content{
@@ -218,13 +218,13 @@ body{
 .content .details h1{
   
   font-size: 100%;
-  font-family:ps-bold;
+  font-family:mons-bold;
   
 }
 
 .content .details p{
   font-size: 90%;
-  font-family: mons-reg;
+  font-family:ps-med;
 }
 
 .info{
