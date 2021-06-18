@@ -321,7 +321,7 @@ position: fixed;
 .connect h1{
 	color:#08a0e9;
 }
-
+.follow button:focus { outline: none; }
   .topics h3{
 	  
   		font-family: 'Public Sans', sans-serif;
