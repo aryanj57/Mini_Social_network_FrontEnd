@@ -166,6 +166,7 @@
 				 width: 90%;
 				 height: auto; 
 				 border: 2px solid black;
+				border-radius:3%;
 				 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 		}
 		.topics{
@@ -176,6 +177,7 @@
 				 width: 90%;
 				 height: auto;
 				 border: 2px solid black;
+				border-radius:3%;
 				 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 		}
 		
@@ -183,15 +185,14 @@
 
 		.follow{
 			float: right;
-			border-radius: 9px;
+			border-radius: 5px;
 			font-size: 1rem;
 		font-family: 'Public Sans', sans-serif;
-		font-weight: medium;
-		border: 1px solid black;
+		font-weight: bold;
+		
 		background-color: white;
 		margin: 0.2rem;
-		padding: 0.2rem 0.8rem 0.2rem 0.8rem;
-		 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		padding: 0.3rem 0.8rem 0.3rem 0.8rem;
 		
 		}
 a{
@@ -270,7 +271,7 @@ position: fixed;
   }
 
    	.material-icons-outlined:hover{
-	font-size: 3.5rem;
+	font-size: 4.5rem;
 }
   .leftColumn-size
   {
