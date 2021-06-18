@@ -184,7 +184,7 @@
 		
 		
 
-		.follow{
+		.follow button{
 			float: right;
 			border-radius: 5px;
 			font-size: 1rem;
@@ -195,6 +195,7 @@
 			color:white;
 		margin: 0.2rem;
 		padding: 0.3rem 0.8rem 0.3rem 0.8rem;
+			border:none;
 		
 		}
 a{
@@ -209,7 +210,7 @@ a{
 				 margin: auto 10px;
 				 height: 3rem;
 				 font-size: 1.3rem;
-				 width: 60%;
+				 width: 90%;
 			border:none;
 				 	font-family: 'Public Sans', sans-serif;
 		font-weight: bold;
@@ -311,6 +312,15 @@ position: fixed;
   	border-color: deepskyblue;
   	font-size: 1.2rem;
   }
+
+.topics h1{
+	color:#08a0e9;
+}
+
+.connect h1{
+	color:#08a0e9;
+}
+
   .topics h3{
 	  
   		font-family: 'Public Sans', sans-serif;
