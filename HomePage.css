@@ -166,7 +166,7 @@
 				 margin: 20px 10px 20px 10px;
 				 width: 90%;
 				 height: auto; 
-				 border: 2px solid black;
+				 border: 2px solid #08a0e9;;
 				border-radius:3%;
 				 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 		}
@@ -177,7 +177,7 @@
 				 margin: 10px;
 				 width: 90%;
 				 height: auto;
-				 border: 2px solid black;
+				 border: 2px solid #08a0e9;;
 				border-radius:3%;
 				 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 		}
@@ -206,10 +206,11 @@ a{
 			color:white;
 				 border-radius: 25px;
 				 padding: 5px;
-				 margin: 10px;
+				 margin: auto 10px;
 				 height: 3rem;
-				 font-size: 1.5rem;
-				 width: 90%;
+				 font-size: 1.3rem;
+				 width: 60%;
+			border:none;
 				 	font-family: 'Public Sans', sans-serif;
 		font-weight: bold;
 		}
@@ -297,7 +298,7 @@ position: fixed;
 }
  
  .connect h3{
-	 color:#08a0e9;
+	 
   	font-family: 'Public Sans', sans-serif;
 		font-weight: bold;
 		outline: 0;
@@ -311,7 +312,7 @@ position: fixed;
   	font-size: 1.2rem;
   }
   .topics h3{
-	  color:#08a0e9;
+	  
   		font-family: 'Public Sans', sans-serif;
 		font-weight: bold;
   }
